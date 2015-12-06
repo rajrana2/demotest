@@ -1,5 +1,5 @@
 FROM tomcat:7-jre7
-MAINTAINER xyz
+MAINTAINER rana
 
 RUN ["rm", "-fr", "/usr/local/tomcat/webapps/ROOT"]
  
