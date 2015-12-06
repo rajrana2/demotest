@@ -1,7 +1,9 @@
-FROM jboss/wildfly
-MAINTAINER Arun Gupta <arungupta@redhat.com>
+FROM tomcat:7-jre7
+MAINTAINER xyz
 
-CMD ["/opt/jboss/wildfly/bin/standalone.sh", "-c", "standalone-full.xml", "-b", "0.0.0.0"]
+RUN ["rm", "-fr", "/usr/local/tomcat/webapps/ROOT"]
+ 
 
-RUN curl -L https://github.com/javaee-samples/javaee7-hol/raw/master/solution/movieplex7-1.0-SNAPSHOT.war -o /opt/jboss/wildfly/standalone/deployments/movieplex7-1.0-SNAPSHOT.war
+RUN curl -L https://github.com/rajrana2/demotest/DemoTest.war -o /usr/local/tomcat/webapps/DemoTest.war
 
+CMD ["catalina.sh", "run"]
