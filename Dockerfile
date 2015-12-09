@@ -6,6 +6,6 @@ CMD ["/opt/jboss/wildfly/bin/standalone.sh", "-c", "standalone-full.xml", "-b", 
 
 
 
-RUN curl -L https://github.com/rajrana2/demotest/DemoTest.war -o /opt/jboss/wildfly/standalone/deployments/DemoTest.war
+RUN curl -L https://github.com/rajrana2/demotest/raw/master/DemoTest.war -o /opt/jboss/wildfly/standalone/deployments/DemoTest.war
 
 
