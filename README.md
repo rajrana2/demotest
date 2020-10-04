@@ -2,7 +2,7 @@
 
 This is a simple JSP-based Java webapp. 
 
-Purpose of this application is to demonstrate creation and binding of service and user provided service. 
+The main purpose of this application is to demonstrate creation and binding of service and user provided service. 
 
 
 1) First step is to create the MySql instance with the service name 'mysql' (same is used in code)in your cloud foundry login. 
