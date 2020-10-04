@@ -1,6 +1,6 @@
 # MySQL Java 
 
-This is a simple JSP-based Java webapp. 
+This is a simple JSP-based Java web application. 
 
 Purpose of this application is to demonstrate creation and binding of service and user provided service. 
 
