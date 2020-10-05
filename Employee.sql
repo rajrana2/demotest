@@ -11,3 +11,4 @@ CREATE TABLE employees (
 );
 
 insert into employees values (1,'2012-01-01','raj','rana','M','2012-01-01')
+insert into employees values (2,'2012-02-01','rajendra','rana','M','2012-02-01')
